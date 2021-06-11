@@ -14,7 +14,6 @@ class App extends Component {
 
  componentDidMount() {
    this.props.dispatch(fetchSmurfs())
-   console.log("mounted")
  }
 
  render() {
